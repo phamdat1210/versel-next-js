@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import ContactCompany from '../components/ContactCompany'
 import Header from '../components/Header'
-import styles from '../styles/Home.module.css'
+import ServiceComponent from '../components/ServiceComponent'
+import SliderHeader from '../components/SliderHeader'
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<>
 			<Head>
 				<title>Financity</title>
 				<meta name="description" content="Financity" />
@@ -14,9 +15,15 @@ export default function Home() {
 				<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 			</Head>
 			<Header/>
-			<main className={styles.main}>
+			{/* <SliderHeader/> */}
+			<body>
+
+			</body>
+			<main>
+				<ContactCompany/>
+				<ServiceComponent/>
 			</main>
-			<footer className={styles.footer}>
+			<footer>
 				{/* <a
 					href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
 					target="_blank"
@@ -28,6 +35,6 @@ export default function Home() {
 					</span>
 				</a> */}
 			</footer>
-		</div>
+		</>
 	)
 }

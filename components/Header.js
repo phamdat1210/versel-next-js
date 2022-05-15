@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import styles from '../styles/header.module.css';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -10,10 +10,9 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import IconText from "./IconText";
 
 const Header = () => {
-
 	return (
 		<Grid container>
-			<div className={'container'}>
+			<Container>
 				<Grid container className={styles.headerTopBar}>
 					<Grid item lg={8} md={7}>
 						<div className={styles.headerWrapper}>
@@ -31,7 +30,7 @@ const Header = () => {
 						</div>
 					</Grid>
 				</Grid>
-			</div>
+			</Container>
 		</Grid>
 	);
 }

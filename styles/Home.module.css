@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+.serviceTimeWrapper {
+    display: flex;
+    gap: 12px;
+}
+.sericeTimeChildWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+.sericeTimeChildWrap > h3 {
+    margin: 0;
+}
+
+.textContent {
+    color: var(--text-content-color);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.serviceMainWrapper {
+    background-image: url('/services_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+.titleSection {
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-bold-color);
+    text-align: center;
+    margin: 0;
+}
+
+.middlePaddingDiv {
+    padding: 80px 0;
+}
+
+.boxCoreWrapper {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
