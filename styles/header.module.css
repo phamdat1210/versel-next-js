@@ -2,9 +2,10 @@
     background-color: 'white';
     color: var(--top-bar-color);
 }
+
 .headerWrapper {
     display: flex;
-    alignItems: center;
+    align-items: center;
     gap: 20px;
     padding: 19px 0;
 }
