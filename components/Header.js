@@ -13,14 +13,14 @@ const Header = () => {
 	return (
 		<Grid container>
 			<Container>
-				<Grid container className={styles.headerTopBar}>
-					<Grid item lg={8} md={7}>
+				<Grid justifyContent={'center'} container className={styles.headerTopBar}>
+					<Grid item lg={8} md={6}>
 						<div className={styles.headerWrapper}>
 							<IconText icon={<AccessTimeIcon />} text={'Mon - Sun 10:00-18:00'} />
 							<IconText icon={<PhoneIcon />} text={'+1-3454-5678-77'} />
 						</div>
 					</Grid>
-					<Grid item lg={4} md={5}>
+					<Grid item lg={4} md={6} justifyContent={'flex-end'}>
 						<div className={styles.headerWrapper}>
 							<IconText icon={<EmailIcon />} text={'Sales@GoodLayers.com'} />
 							<FacebookIcon />

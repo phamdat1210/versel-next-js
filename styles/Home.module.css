@@ -4,14 +4,14 @@
     display: flex;
     gap: 12px;
 }
-.sericeTimeChildWrap {
+.serviceTimeChildWrap {
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
 }
-.sericeTimeChildWrap > h3 {
+.serviceTimeChildWrap > h3 {
     margin: 0;
 }
 
@@ -47,4 +47,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+    padding: 60px 30px 35px 30px;
+    -webkit-box-shadow: 0 0 74px rgb(10 10 10 / 7%);
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boxCoreWrapper > h3 {
+    margin: 0;
+    color: #f17d44;
+}
+
+.boxCoreWrapper > p {
+    text-align: center;
+}
+
+.contactParallaxWrapper {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+.contactParallaxWrapper > div > h3 {
+    font-size: 48px;
+    color: white;
+    margin: 0;
+}
+
+.contactParallaxWrapper > div > p {
+    color: #f17d44;
+    font-size: 20px;
+}
+
+.actionItemButton {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 19px 36px;
 }

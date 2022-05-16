@@ -1,13 +1,11 @@
 import styles from '../styles/Home.module.css'
-
+import React from 'react'
 
 const BoxIconMain = (
-	srcIcon,
+	srcIcon = '',
 	title = '',
 	content = ''
 ) => {
-
-	console.log('srcIcon', srcIcon)
 
 	return (
 		<div className={styles.boxCoreWrapper}>

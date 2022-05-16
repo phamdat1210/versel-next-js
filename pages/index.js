@@ -3,6 +3,8 @@ import ContactCompany from '../components/ContactCompany'
 import Header from '../components/Header'
 import ServiceComponent from '../components/ServiceComponent'
 import SliderHeader from '../components/SliderHeader'
+import ParallaxBg from "../components/ParallaxBg";
+import ContactParallax from "../components/ContactParallax";
 
 export default function Home() {
 	return (
@@ -15,13 +17,11 @@ export default function Home() {
 				<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 			</Head>
 			<Header/>
-			{/* <SliderHeader/> */}
-			<body>
-
-			</body>
+			 {/*<SliderHeader/>*/}
 			<main>
 				<ContactCompany/>
 				<ServiceComponent/>
+				<ContactParallax/>
 			</main>
 			<footer>
 				{/* <a

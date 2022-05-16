@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const ServiceTime = ({
@@ -9,7 +8,7 @@ const ServiceTime = ({
     return ( 
         <div className={styles.serviceTimeWrapper}>
             <img style={{height: 72}} src={srcIcon}/>
-            <div className={styles.sericeTimeChildWrap}>
+            <div className={styles.serviceTimeChildWrap}>
                 <h3 style={{
                     color: '#3740b0'
                 }}>{title}</h3>
