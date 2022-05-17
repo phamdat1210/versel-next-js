@@ -64,10 +64,11 @@
 }
 
 .contactParallaxWrapper {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    justify-content: space-between;
+    line-height: 1.7;
+    /*justify-content: space-between;*/
 }
 
 .contactParallaxWrapper > div > h3 {
@@ -86,5 +87,9 @@
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     border-radius: 30px;
-    padding: 19px 36px;
+    padding: 19px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
 }

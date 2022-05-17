@@ -13,7 +13,8 @@ const SectionBg = ({
 		backgroundImage: `url(${uri})`,
 		backgroundRepeat: 'no-repeat',
 		backgroundPosition: 'center',
-		backgroundPositionY: 'top'
+		backgroundPositionY: 'top',
+		padding: '80px 0'
 	}
 
 	return (

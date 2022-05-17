@@ -7,17 +7,19 @@ const ContactParallax = () => {
 	return (
 		<ParallaxBg uri={'/cat_bg.jpg'}>
 			<Container style={{
-				padding: '95px 0 65px 0'
+				padding: '95px 40px 65px 40px'
 			}}>
-				<div className={styles.contactParallaxWrapper}>
-					<div style={{display: 'flex', flexDirection: 'column', gap: 20}}>
+				<Grid container spacing={1} className={styles.contactParallaxWrapper}>
+					<Grid item lg={9} style={{display: 'flex', flexDirection: 'column', gap: 20}}>
 						<h3>{'Wanna Talk To Us?'}</h3>
 						<p>{'Please feel free to contact us. We’re super happy to talk to you. Feel free to ask anything.'}</p>
-					</div>
-					<div className={styles.actionItemButton}>
-						<a>{'CONTACT US'}</a>
-					</div>
-				</div>
+					</Grid>
+					<Grid item lg={3}>
+						<div className={styles.actionItemButton}>
+							<a>{'CONTACT US'}</a>
+						</div>
+					</Grid>
+				</Grid>
 			</Container>
 		</ParallaxBg>
 	);

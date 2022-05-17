@@ -6,6 +6,8 @@ import SliderHeader from '../components/SliderHeader'
 import ContactParallax from "../components/ContactParallax";
 import OurCases from "../components/OurCases";
 import Footer from "../components/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
 	return (
