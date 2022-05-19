@@ -48,21 +48,21 @@ const ContactUs = () => {
 					<LocalPhoneIcon fontSize={"large"}/>
 					<h3>{'Phone'}</h3>
 					<p>{'A wonderful serenity has taken possession of my entire soul, like these.'}</p>
-					<a target="_blank" href="tel:+84333073558">{'+84333073558'}</a>
+					<a target="_blank" rel="noreferrer" href="tel:+84333073558">{'+84333073558'}</a>
 				</Grid>
 				
 				<Grid className={styles.wrapperItemContact} item lg={4} md={4} sm={4} xs={12}>
 					<EmailIcon fontSize={"large"}/>
 					<h3>{'Email'}</h3>
 					<p>{'A wonderful serenity has taken possession of my entire soul, like these.'}</p>
-					<a target="_blank" href="mailto:phamhuydat1210@gmail.com">{'phamhuydat1210@gmail.com'}</a>
+					<a target="_blank" rel="noreferrer" href="mailto:phamhuydat1210@gmail.com">{'phamhuydat1210@gmail.com'}</a>
 				</Grid>
 
 				<Grid className={styles.wrapperItemContact} item lg={4} md={4} sm={4} xs={12}>
 					<LocationOnIcon fontSize={"large"}/>
 					<h3>{'Location'}</h3>
 					<p>{'A wonderful serenity has taken possession of my entire soul, like these.'}</p>
-					<a target="_blank" href="https://www.google.com/maps/place/S%C3%A2n+v%E1%BA%ADn+%C4%91%E1%BB%99ng+Qu%E1%BB%91c+gia+M%E1%BB%B9+%C4%90%C3%ACnh/@21.0502239,105.7539894,13z/data=!4m5!3m4!1s0x313454a15b9aeb8d:0x84ec0f4d29a7ab36!8m2!3d21.0204142!4d105.7652734">
+					<a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/S%C3%A2n+v%E1%BA%ADn+%C4%91%E1%BB%99ng+Qu%E1%BB%91c+gia+M%E1%BB%B9+%C4%90%C3%ACnh/@21.0502239,105.7539894,13z/data=!4m5!3m4!1s0x313454a15b9aeb8d:0x84ec0f4d29a7ab36!8m2!3d21.0204142!4d105.7652734">
 						{'View on google map'}
 					</a>
 				</Grid>
