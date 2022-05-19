@@ -6,7 +6,8 @@ const styles = {
 	wrapper: {
 		padding: '76px 0px 28px 0px',
 		borderColor: '#e6e6e6',
-		backgroundColor: '#e6e6e6'
+		backgroundColor: '#e6e6e6',
+		marginTop: '50px'
 	}
 }
 

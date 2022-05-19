@@ -8,23 +8,27 @@ import OurCases from "../components/OurCases";
 import Footer from "../components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AboutUsParallax from '../components/AboutUsParallax'
+import AboutUs from '../components/AboutUs'
+import ContactUs from '../components/ContactUs'
 
 export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Financity</title>
-				<meta name="description" content="Financity" />
+				<title>SEA Internaltional Group</title>
+				<meta name="description" content="SEA Internaltional Group" />
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-				<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 			</Head>
 			<Header/>
-			 <SliderHeader/>
+			<SliderHeader/>
 			<main>
 				<ContactCompany/>
+				<AboutUsParallax/>
+				<AboutUs/>
 				<ServiceComponent/>
 				<ContactParallax/>
+				<ContactUs/>
 				<OurCases/>
 			</main>
 			<Footer/>
