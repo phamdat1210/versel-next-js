@@ -1,7 +1,6 @@
 import { Container, Grid } from "@mui/material";
 import ServiceTime from "./ServiceTime";
 
-
 const styles = {
 	wrapper: {
 		padding: '76px 0px 28px 0px',
@@ -12,9 +11,9 @@ const styles = {
 }
 
 const serviceTimes = [
-	{srcIcon: '/home-icon-1.png', title: 'On Time Service.', content: 'Transforming distribution and marketing with key capabilities in customer insight and analytics.'},
-	{srcIcon: '/home-icon-2.png', title: 'On Time Service.', content: 'Transforming distribution and marketing with key capabilities in customer insight and analytics.'},
-	{srcIcon: '/home-icon-3.png', title: 'On Time Service.', content: 'Transforming distribution and marketing with key capabilities in customer insight and analytics.'}
+	{srcIcon: '/home-icon-1.png', title: 'Business Process', content: 'Extending efficient business process outsourcing by means of exceptional customer service level and swift business process automation . Business Process'},
+	{srcIcon: '/home-icon-2.png', title: 'Product Development', content: 'Bringing ideas to reality with constant development of conceptual product and turning them into opportunities for our business partners.'},
+	{srcIcon: '/home-icon-3.png', title: 'IT Infrastructure', content: 'Providing constant 24/7 network monitoring services and ensuring a secure, rapid and reliable connectivity for our product end-users .'}
 ]
 
 

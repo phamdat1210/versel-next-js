@@ -16,8 +16,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>SEA Internaltional Group</title>
-				<meta name="description" content="SEA Internaltional Group" />
+				<title>SEA International Group</title>
+				<meta name="description" content="SEA International Group" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header/>

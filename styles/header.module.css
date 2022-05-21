@@ -9,3 +9,9 @@
     gap: 4px;
     padding: 19px 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .headerWrapper {
+        justify-content: center !important;
+    }
+  }

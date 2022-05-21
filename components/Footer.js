@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Grid} from "@mui/material";
+import {Grid} from "@mui/material";
 import styles from '../styles/Home.module.css'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -13,7 +13,7 @@ const Footer = () => {
 		<footer className={styles.wrapperFooter}>
 			<Grid container justifyContent="space-between">
 				<Grid item lg={6}>
-					<h3>{'About SEA Internaltional Group'}</h3>
+					<h3>{'About SEA International Group'}</h3>
 				</Grid>
 				<Grid item lg={6} style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '20px'}}>
 					<a className={styles.linkAWrapper}>

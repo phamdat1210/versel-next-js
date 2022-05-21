@@ -42,10 +42,10 @@
 }
 
 .boxCoreWrapper {
+    height: 386px;
     background-color: #ffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 25px;
     padding: 60px 30px 35px 30px;
