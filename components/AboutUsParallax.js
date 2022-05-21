@@ -10,7 +10,7 @@ const AboutUsParallax = () => {
 			<Container style={{
 				padding: '95px 40px 65px 40px'
 			}}>
-				<Grid container className={styles.aboutUsWrapper}>
+				<Grid container justifyContent={'center'} alignItems={'center'} className={styles.aboutUsWrapper} flexDirection={'column'}>
 					<h3>{'About Us'}</h3>
 					<p>{'WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT'}</p>
 				</Grid>
