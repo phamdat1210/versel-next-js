@@ -16,7 +16,7 @@ const Header = () => {
 				<Grid justifyContent={'center'} container className={styles.headerTopBar}>
 					<Grid item lg={8} md={6} sm={12}>
 						<div className={styles.headerWrapper} style={{gap: 10}}>
-							<IconText icon={<AccessTimeIcon />} text={'Mon - Sun 10:00-18:00'} />
+							<IconText icon={<AccessTimeIcon />} text={'Mon - Sun 11:00-22:00'} />
 							<IconText icon={<PhoneIcon />} text={'+66 85 541 8670'} />
 						</div>
 					</Grid>

@@ -11,13 +11,14 @@ import "slick-carousel/slick/slick-theme.css";
 import AboutUsParallax from '../components/AboutUsParallax'
 import AboutUs from '../components/AboutUs'
 import ContactUs from '../components/ContactUs'
+import React from "react";
 
 export default function Home() {
 	return (
 		<>
 			<Head>
 				<title>SEA International Group</title>
-				<meta name="description" content="SEA International Group" />
+				<meta name="description" content="SEA International Group isn't just an ordinary online marketing company. With the team of highly trained individuals, the company provides services while ..."/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header/>

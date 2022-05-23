@@ -8,7 +8,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Footer = () => {
 
-
 	return (
 		<footer className={styles.wrapperFooter}>
 			<Grid container justifyContent="space-between">
