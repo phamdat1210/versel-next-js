@@ -20,6 +20,7 @@ export default function Home() {
 				<title>SEA International Group</title>
 				<meta name="description" content="SEA International Group isn't just an ordinary online marketing company. With the team of highly trained individuals, the company provides services while ..."/>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="google-site-verification" content="kJEYWzQa1usXzuTca5hdZeA4m4XExbo9zwkboPER_WI"/>
 			</Head>
 			<Header/>
 			<SliderHeader/>
